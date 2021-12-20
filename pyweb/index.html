@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>HTML Document</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="script.js"></script>
+   </head>
+   <body id="body">
+      <p>
+         <b>
+            Hello, <i>World!</i>.
+         </b>
+      </p>
+   </body>
+    
+   <script>
+     console.log("Hello js!");
+     let tag = document.createElement("p");
+     let text = document.createTextNode("I was created by JS");
+     tag.appendChild(text);
+     let body = document.getElementById("body");
+     body.appendChild(tag);
+   </script> 
+</html>
+
+
